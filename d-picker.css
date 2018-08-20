@@ -1,0 +1,60 @@
+.dp-body {
+    font-family: monospace;
+    display: none;
+    font-size: 11pt;
+    border: 1px solid #a61f1f;
+    position: absolute;
+    width: 225px;
+    border-radius: 5px;
+    background-color: #f0f8ff;
+}
+
+.dp-header {
+    text-align: center;
+    background-color: #a61f1f;
+    color: white;
+    font-weight: bold;
+    padding: 3px 0;
+}
+
+.dp-header > span {
+    width: 94px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.dp-header > div {
+    display: inline-block;
+    width: 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.dp-week {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #e44343;
+    font-weight: bold;
+}
+
+.dp-week > li {
+    display: inline-block;
+    padding: 1px;
+    width: 30px;
+}
+
+.dp-day, .dp-day-empty {
+    display: inline-block;
+    border: 1px solid #c6c6c6;
+    width: 30px;
+    border-radius: 3px;
+    text-align: center;
+    padding: 1px 0;
+    cursor: pointer;
+}
+
+div.dp-day:hover {
+    background-color: yellow;
+}
